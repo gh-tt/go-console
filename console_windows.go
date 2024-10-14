@@ -10,8 +10,8 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/gh-tt/go-console/interfaces"
 	"github.com/iamacarpet/go-winpty"
-	"github.com/runletapp/go-console/interfaces"
 )
 
 // Do the interface allocations only once for common
